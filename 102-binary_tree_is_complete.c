@@ -30,7 +30,8 @@ size_t binary_tree_size(const binary_tree_t *tree)
  * Return: If tree is NULL, return 0.
  */
 
-int check_if_complete(const binary_tree_t *tree, size_t index, size_t size, int flag)
+int check_if_complete(const binary_tree_t *tree, size_t index,
+		size_t size, int flag)
 {
 	if (tree == NULL)
 		return (1);
